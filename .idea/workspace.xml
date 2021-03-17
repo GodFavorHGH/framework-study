@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9055b1f8-2864-4c61-9424-00d3bc967ad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-commands/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/Stock8000Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/java/com/haugv/Stock9000Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/java/com/haugv/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/api-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/api-common/src/main/java/com/haugv/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/api-common/src/main/java/com/haugv/constant/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/api-common/src/main/java/com/haugv/constant/VarDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/api-common/src/main/java/com/haugv/entity/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/api-common/src/main/java/com/haugv/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/api-common/src/main/java/com/haugv/entity/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/api-common/src/main/java/com/haugv/entity/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/api-common/src/main/java/com/haugv/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/development-procedure.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/schedule.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/service-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/service-user/src/main/java/com/haugv/UserMain1001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/service-user/src/main/java/com/haugv/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/service-user/src/main/java/com/haugv/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/service-user/src/main/java/com/haugv/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/service-user/src/main/java/com/haugv/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/service-user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/service-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hastJava/service-user/src/main/resources/sql/user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/dubbo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/jdk-source/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/jvm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/mysql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/redis/src/main/java/com/haugv/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/redis/src/main/java/com/haugv/controller/CommodityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/redis/src/main/java/com/haugv/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/redis/src/main/resources/redis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/spring-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/spring-cloud-alibaba/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/spring-cloud-netflix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-study-notes/zookeeper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/src/main/java/com/haugv/AppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/src/test/java/com/haugv/AppApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Downloads/maven_repository" />
+        <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/Downloads/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1prWMJ1FRkI3jjuFLIKiV95Pjl3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.haugv.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Stock9000Main">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stock8000Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="stock-service8000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.haugv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haugv.Stock8000Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stock9000Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="stock-service9000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.haugv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haugv.Stock9000Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Stock9000Main" />
+        <item itemvalue="Spring Boot.Stock8000Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9055b1f8-2864-4c61-9424-00d3bc967ad0" name="Default Changelist" comment="" />
+      <created>1615941640152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615941640152</updated>
+      <workItem from="1615941641471" duration="2999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
