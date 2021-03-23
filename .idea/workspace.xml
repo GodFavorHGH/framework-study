@@ -5,19 +5,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9055b1f8-2864-4c61-9424-00d3bc967ad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/redis-commands/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/Stock8000Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/controller/StockController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/java/com/haugv/Stock9000Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/java/com/haugv/controller/StockController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-spring-boot/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-spring-boot/src/main/java/com/haugv/DockerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-spring-boot/src/main/java/com/haugv/controller/DockerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-spring-boot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/src/main/java/com/haugv/docker/DockerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/src/test/java/com/haugv/docker/DockerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/FAQ.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-common/src/main/java/com/haugv/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-consumer/src/main/java/com/haugv/StartConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-consumer/src/main/resources/dubbo-consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-consumer/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-consumer/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-provider/src/main/java/com/haugv/StartProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-provider/src/main/java/com/haugv/service/hello/impl/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-provider/src/main/resources/dubbo-provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-provider/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/dubbo-provider/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-start/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/bean/Commodity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/common/JsonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/constants/dicts/RedisCachePrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-account-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-account-service/src/main/java/com/haugv/DubboAccountApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-account-service/src/main/java/com/haugv/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-account-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-account-service/src/main/resources/dubbo-account-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-account-service/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-account-service/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-common-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-common-api/src/main/java/com/haugv/service/account/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-common-api/src/main/java/com/haugv/service/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-common-api/src/main/java/com/haugv/service/payment/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-common-api/src/main/java/com/haugv/service/stock/StockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-common-api/src/main/java/com/haugv/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-order-service/src/main/java/com/haugv/DubboOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-order-service/src/main/java/com/haugv/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-order-service/src/main/java/com/haugv/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-order-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-order-service/src/main/resources/dubbo-order-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-order-service/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-order-service/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-stock-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-stock-service/src/main/java/com/haugv/DubboStockApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-stock-service/src/main/java/com/haugv/service/impl/StockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-stock-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-stock-service/src/main/resources/dubbo-stock-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-stock-service/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-stock-service/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-user-service/src/main/java/com/haugv/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-user-service/src/main/resources/dubbo-user-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-user-service/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo-user-service/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-commands/redis-commands.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-commands/src/main/java/com/haugv/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-commands/src/main/java/com/haugv/controller/RedisCommandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-commands/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/redis-sync-database/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/cache/LoadDataToCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/controller/CommodityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/mapper/CommodityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/service/CommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/service/impl/CommodityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/utils/RedisCacheUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/resources/db/mall.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/resources/mappers/CommodityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper/zookeeper-register/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper/zookeeper.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hastJava/api-common/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hastJava/api-common/src/main/java/com/haugv/common/Result.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hastJava/api-common/src/main/java/com/haugv/constant/ResultCode.java" afterDir="false" />
@@ -65,6 +138,24 @@
       <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/src/main/java/com/haugv/AppApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/src/test/java/com/haugv/AppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-commands/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-commands/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/Stock8000Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/Stock8000Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/controller/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/target/classes/com/haugv/Stock8000Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/target/classes/com/haugv/Stock8000Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/target/classes/com/haugv/controller/StockController.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/target/classes/com/haugv/controller/StockController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/java/com/haugv/Stock9000Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/java/com/haugv/Stock9000Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/java/com/haugv/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/java/com/haugv/controller/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/target/classes/com/haugv/Stock9000Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/target/classes/com/haugv/controller/StockController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,12 +165,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -100,6 +201,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -109,19 +211,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo/dubbo-stock-service/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service9000/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dubbo/dubbo-stock-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dubbo/dubbo-account-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dubbo/dubbo-order-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dubbo/dubbo-user-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/resources/mappers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.haugv.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Stock9000Main">
+  <component name="RunManager" selected="Spring Boot.Stock8000Main">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -129,6 +240,45 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboAccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-account-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.haugv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haugv.DubboAccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.haugv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haugv.DubboOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboStockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-stock-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.haugv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haugv.DubboStockApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,8 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Stock9000Main" />
         <item itemvalue="Spring Boot.Stock8000Main" />
+        <item itemvalue="Spring Boot.DubboStockApplication" />
+        <item itemvalue="Spring Boot.DubboAccountApplication" />
+        <item itemvalue="Spring Boot.DubboOrderApplication" />
+        <item itemvalue="Spring Boot.Stock9000Main" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +327,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615941640152</updated>
-      <workItem from="1615941641471" duration="2999000" />
+      <workItem from="1615941641471" duration="4236000" />
+      <workItem from="1615969260378" duration="3506000" />
+      <workItem from="1616027281973" duration="11842000" />
+      <workItem from="1616048195251" duration="10845000" />
+      <workItem from="1616075527738" duration="1925000" />
+      <workItem from="1616113882105" duration="1367000" />
+      <workItem from="1616135398587" duration="9103000" />
+      <workItem from="1616172601887" duration="92000" />
+      <workItem from="1616200730832" duration="201000" />
+      <workItem from="1616206273439" duration="3781000" />
+      <workItem from="1616373186039" duration="1268000" />
+      <workItem from="1616374525061" duration="2268000" />
+      <workItem from="1616379815766" duration="5665000" />
+      <workItem from="1616394104239" duration="1153000" />
+      <workItem from="1616420051377" duration="9010000" />
+      <workItem from="1616459485967" duration="1233000" />
     </task>
     <servers />
   </component>
@@ -183,5 +351,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/redis/redis-distributed-lock/stock-service8000/src/main/java/com/haugv/controller/CommodityController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="item" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

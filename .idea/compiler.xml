@@ -6,15 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-common-api" />
+        <module name="redis-sync-database" />
+        <module name="dubbo-order-service" />
         <module name="redis-commands" />
         <module name="stock-service8000" />
+        <module name="api-common" />
+        <module name="dubbo-stock-service" />
         <module name="stock-service9000" />
-        <module name="zookeeper" />
+        <module name="zookeeper-register" />
+        <module name="dubbo-account-service" />
+        <module name="dubbo-user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubbo-service" target="8" />
+      <module name="order-service" target="8" />
       <module name="redis-commands-operation" target="8" />
       <module name="stock-service9001" target="8" />
+      <module name="user-service" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

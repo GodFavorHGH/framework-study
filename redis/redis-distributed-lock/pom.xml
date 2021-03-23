@@ -12,6 +12,7 @@
     <modules>
         <module>stock-service9000</module>
         <module>stock-service8000</module>
+        <module>redis-sync-database</module>
     </modules>
 
     <artifactId>redis-distributed-lock</artifactId>

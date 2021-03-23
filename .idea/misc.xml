@@ -9,10 +9,18 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/dubbo-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/order-service/pom.xml" />
         <option value="$PROJECT_DIR$/redis-commands-operation/pom.xml" />
         <option value="$PROJECT_DIR$/stock-service9001/pom.xml" />
       </set>
     </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://code.alibabatech.com/schema/dubbo" location="$PROJECT_DIR$" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
